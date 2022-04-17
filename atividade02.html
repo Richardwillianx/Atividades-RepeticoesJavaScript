@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 02</title>
+  </head>
+  <body>
+    <h1>Exercícios - Repetições Java Script</h1>
+
+    <p>Utilizando FOR, imprima no console a tabuada do 5 (cinco).</p>
+
+    <script>
+      const tabuada = Number(prompt("Digite o número para montar a tabuada"));
+      let contador = 1;
+      for (contador = 1; contador <= 10; contador++) {
+        const resultado = tabuada * contador;
+        console.log(` ${tabuada} * ${contador} = ${resultado}`);
+      }
+    </script>
+  </body>
+</html>
